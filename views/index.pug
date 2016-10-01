@@ -1,0 +1,10 @@
+doctype html
+html(lang="hu")
+    head
+        title Hányadik hét van az OE-n most?
+    body
+        - if (week) {
+          p= "A(z) " + week + ". hét van."
+        - } else {
+          p Be kéne állítani a dátumokat.
+        - }
